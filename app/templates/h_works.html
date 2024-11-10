@@ -1,0 +1,282 @@
+<head>
+  <link rel="stylesheet" href="../static/css/HoverCardsFX.css">
+  <!-- Favicoon -->
+  <link rel="shortcut icon" href="../static/images/pcp1logo.png" type="image/png">
+
+  <!-- Lootie -->
+  <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script>
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
+  <script>
+    LottieInteractivity.create({
+      mode: "scroll",
+      player: '#firstLottie',
+      actions: [
+        {
+          visibility: [0, 1],
+          type: "seek",
+          frames: [0, 4800],
+        },
+      ]
+    });
+  </script>
+  <!-- Lootie -- End -->
+</head>
+
+<div class="header">
+
+  <div class="zoom headerZoom">
+    <div class="title">
+      <h1 class="h1_f sh1 paci_font" style="color: whitesmoke;">My Works</h1>
+      <!-- <a href="http://webdesignerwall.com/tutorials/how-to-add-icon-fonts-to-any-element-with-css"
+				alt="webdesignerwall.com" target="_blank"><button>View Tutorial</button></a> -->
+    </div>
+  </div>
+</div>
+
+{% extends "layout.html" %}
+
+{% block content %}
+
+<div class="container mt-4">
+  <h3 class="display-4 paci_font ri_a">Here are some of my Top works</h3>
+  <p class="ri_a cursive_font">Only Some of them not all, more comming shortly ;)</p>
+
+  <div class="container">
+    <div class="">
+      <center>
+        <!-- <lottie-player id="firstLottie" src="https://assets9.lottiefiles.com/packages/lf20_u5nd9awf.json"
+          style="width:100%; height: 260px; z-index: -999;"></lottie-player> -->
+          <img src="../static/images/43885-laptop-working.gif" alt=""  style="width:50%; z-index: -999;">
+      </center>
+    </div>
+    <br>
+  </div>
+
+  <!-- 888888888 888888888 88888888 WEBSITES 88888888 888888888 888888888 -->
+  <div class="wrapper">
+    <h2 class="cursive_font text-dark uni"><strong>Websites<span class="text-danger">(5)</span></strong></h2>
+    <div class="cards">
+
+
+      <!-- -------------Fx Card 1 -->
+
+      <figure class="card">
+        <!-- <img src="../static/images/works/websites/webP_canadaculture.gif" /> -->
+        <img src="../static/images/works/websites/webP_3canadaculture.png" />
+        <figcaption>
+          <div class="fx_card_overtext float-right">
+            <a href="https://prateekwebsite.000webhostapp.com/sqlview/CanadaCulTureWeb_Prateek/CanadaWeb_Index.html"
+              style="color: transparent;">Demo</a>
+          </div>
+          <div class="fx_card_overtext float-right">
+            <a
+              href="https://prateekwebsite.000webhostapp.com/sqlview/CanadaCulTureWeb_Prateek/CanadaWeb_Index.html">LIVE</a>
+          </div>
+          <hr>
+          Canadian Culture Website
+        </figcaption>
+      </figure>
+
+      <!-- -------------Fx Card 2 -->
+      <figure class="card">
+        <img src="../static/images/works/websites/webP_dmart.png" />
+        <figcaption>
+          <!-- <div class="fx_card_overtext float-right">
+            <a href="https://drive.google.com/file/d/1C-v09A5Pcja1wGOBMjezTxup373f5k1y/view?usp=sharing">Demo</a>
+          </div> -->
+          <div class="fx_card_overtext float-right">
+            <a href="https://prateekwebsite.000webhostapp.com/sqlview/WebsiteD-Mart/homepage.html">LIVE</a>
+          </div>
+          <hr>
+          D-mart Store
+        </figcaption>
+      </figure>
+
+      <!-- -------------Fx Card 3 -->
+
+      <figure class="card">
+        <img src="../static/images/works/websites/techSBack.gif" />
+        <figcaption>
+          <!-- <div class="fx_card_overtext float-right">
+          <a href="https://drive.google.com/file/d/1C-v09A5Pcja1wGOBMjezTxup373f5k1y/view?usp=sharing">Liv</a>
+        </div> -->
+          <a href="https://prateekwebsite.000webhostapp.com/sqlview/New%20directory/LiveGraphWebF1/homepage.html">
+            <div class="fx_card_overtext float-right">
+              LIVE
+          </a>
+    </div>
+    <hr>
+    Live Graphs Site
+    </figcaption>
+    </figure>
+
+    <!-- -------------Fx Card 4 -->
+    <figure class="card">
+      <img src="../static/images/works/websites/charge.png" />
+      <figcaption>
+        <div class="fx_card_overtext float-right ml-2">
+          <a href="https://drive.google.com/file/d/1ipMSqic_kVbIILoKe7YWpOt1KRAWuTnL/view?usp=sharing">Video</a>
+        </div>
+        <div class="fx_card_overtext float-right">
+          <a
+            href="https://prateekwebsite.000webhostapp.com/sqlview/New%20directory/letscharge/templates/index.html">LIVE</a>
+        </div>
+        <hr>
+        Let's Charge Startup
+      </figcaption>
+    </figure>
+    <!-- -------------Fx Card 5 -->
+    <figure class="card">
+      <img src="../static/images/works/websites/webP_SMRPMC.png" />
+      <figcaption>
+        <!-- <div class="fx_card_overtext float-right">
+            <a href="https://drive.google.com/file/d/1C-v09A5Pcja1wGOBMjezTxup373f5k1y/view?usp=sharing">Demo</a>
+          </div> -->
+        <div class="fx_card_overtext float-right">
+          <a href="https://prateekwebsite.000webhostapp.com/sqlview/WebsiteD-Mart/homepage.html">LIVE</a>
+        </div>
+        <hr>
+        SMRPM College site
+      </figcaption>
+    </figure>
+
+    <!-- -------------Fx Card 6 -->
+    <!-- <figure class="card">
+      <img src="https://mrreiha.keybase.pub/codepen/hover-fx/3.jpg" />
+      <figcaption>Minion Masters</figcaption>
+    </figure> -->
+
+    <!-- -------------Fx Card 7 -->
+    <!-- <figure class="card">
+      <img src="https://mrreiha.keybase.pub/codepen/hover-fx/4.jpg" />
+      <figcaption>KoseBoz!</figcaption>
+    </figure> -->
+
+  </div>
+  <!-- 888888888888 888888888888888888888 APPS 88888888888888888 8888888888888 -->
+  <div class="wrapper">
+    <h2 class="cursive_font text-dark uni"><strong>Apps<span class="text-danger">(1)</span></strong></h2>
+    <div class="cards">
+      <!-- -------------Fx Card 1 -->
+      <figure class="card mb-4">
+        <img src="../static/images/works/mobileApp1_gym.png" />
+        <figcaption>
+          <div class="fx_card_overtext float-right">
+            <a href="https://drive.google.com/file/d/1C-v09A5Pcja1wGOBMjezTxup373f5k1y/view?usp=sharing">Demo</a>
+          </div>
+          <div class="fx_card_overtext_Code float-right">
+            <a href="https://github.com/prateekclare/home_gym_application_prateek">Code</a>
+          </div>
+          <hr>
+          GymApp
+        </figcaption>
+      </figure>
+
+    </div>
+    <!-- 888888888888 888888888888888888888 Graphic Designing Projects 88888888888888888 8888888888888 -->
+    <div class="wrapper">
+      <h2 class="cursive_font text-dark uni"><strong>Graphic Designing Projects<span
+            class="text-danger">(3)</span></strong></h2>
+      <div class="cards">
+
+        <!-- -------------Fx Card 1 -->
+        <a href="{{url_for('gdp') }}">
+          <figure class="card">
+            <img src="../static/images/works/graphic_bbg.png" />
+            <figcaption>Logos</figcaption>
+          </figure>
+        </a>
+
+        <!-- -------------Fx Card 2 -->
+        <a href="http://www.instagram.com/prateekclare/">
+          <figure class="card">
+            <img src="../static/images/works/ggraphic_posters.png" />
+            <figcaption>Posters</figcaption>
+          </figure>
+        </a>
+
+
+        <!-- -------------Fx Card 3 -->
+        <a href="https://www.youtube.com/channel/UC5PDe5fXjQWCqszbP6zJYIQ">
+
+          <figure class="card">
+            <img src="../static/images/works/graphic_videos.png" />
+            <figcaption>Videos</figcaption>
+          </figure>
+        </a>
+
+
+        <!-- -------------Fx Card 4 -->
+        <!-- <figure class="card">
+            <img src="https://mrreiha.keybase.pub/codepen/hover-fx/4.jpg" />
+            <figcaption></figcaption>
+
+          </figure> -->
+
+      </div>
+      <!-- 8888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888888 -->
+      <!-- <h2 class="cursive_font text-dark uni"><strong>What's Comming Next?</strong></h2>
+
+
+      <div class="news">
+
+        <figure class="article">
+
+          <img src="https://mrreiha.keybase.pub/codepen/hover-fx/news1.jpg" />
+
+          <figcaption>
+
+            <h3>New Item</h3>
+
+            <p>
+
+              In today’s update, two heads are better than one, and three heads are better than that, as the all-new
+              Flockheart’s Gamble Arcana item for Ogre Magi makes its grand debut.
+
+            </p>
+
+          </figcaption>
+
+        </figure>
+
+        <figure class="article">
+
+          <img src="https://mrreiha.keybase.pub/codepen/hover-fx/news2.png" />
+
+          <figcaption>
+
+            <h3>Update</h3>
+
+            <p>
+
+              Just in time for Lunar New Year and the Rat’s time in the cyclical place of honor, the Treasure of
+              Unbound
+              Majesty is now available.
+
+            </p>
+
+          </figcaption>
+
+        </figure>
+
+      </div> -->
+
+    </div>
+
+    <div class="container">
+
+      .....
+      <!-- quam harum itaque! Voluptatibus, a debitis. Aliquam architecto expedita veritatis magni possimus consectetur eum
+      aperiam neque et, inventore suscipit in quae, veniam cumque minima est quas tempore quo quaerat odio voluptate.
+      Qui
+      delectus odit optio cupiditate assumenda esse repudiandae quia, amet accusamus saepe voluptatibus exercitationem
+      deleniti recusandae magni ea aut, magnam perferendis minus? Ipsam quod magnam animi molestias voluptas quos
+      sapiente
+      libero. Tempora, facilis -->
+    </div>
+    <!-- partial -->
+
+
+
+    {% endblock content %}

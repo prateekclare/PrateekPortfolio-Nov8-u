@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicoon -->
+    <link rel="shortcut icon" href="../static/images/pcp1logo.png" type="image/png">
+    {% include "includes/alllinks.html" %}
+</head>
+
+<body>
+    <!--<img src="{{ url_for('static',filename='images/uta-logo-200.png')}}">-->
+    {% include "includes/navigation.html" %}
+
+    {% block content %}
+    {% endblock content %}
+
+</body>
+</html>
+
+{% extends 'includes/socialMd_box.html' %}

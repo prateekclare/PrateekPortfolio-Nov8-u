@@ -1,0 +1,44 @@
+{% extends 'home_layout.html' %}
+
+{% block homeContent %}
+
+<header class="container">
+  <div class="siteTitle typewrite" data-period="2000"
+    data-type='[ "Portfolio Website of", "Prateek Clare" ]'>
+    <span class="wrap"></span>
+</header>
+
+ 
+<br>
+<main>
+  <a href="{{url_for('about') }}" class="card" id="card1" data-aos="fade-right" data-aos-duration="3500">
+    <!-- data-aos="fade-right" data-aos-easing="ease-in-sine"       data-aos-duration="3000" -->
+    <div class="inner shadow2inn">
+      <h2 class="title">About Me</h2>
+      <time class="subtitle">Brief about me<time>
+    </div>
+  </a>
+
+  <a href="{{url_for('works') }}" class="card card2" id="card2" data-aos="zoom-in" data-aos-duration="1300">
+    <div class="inner shadow2inn">
+      <h2 class="title">My Works</h2>
+      <time class="subtitle">Some of the projects are here<time>
+    </div>
+  </a>
+
+  <a href="" class="card card3" id="card3" data-aos="zoom-in" data-aos-duration="1300">
+    <div class="inner shadow2inn">
+      <h4>
+        <time class="subtitle">Want any website/webpage?<time>
+      </h4>
+      <h3 class="title text-dark">
+        <hr>
+        Contact via
+        <br><i class="fa fa-instagram" aria-hidden="true"></i> prateekclare
+      </h3>
+    </div>
+  </a>
+  <main>
+
+
+    {% endblock homeContent %}
